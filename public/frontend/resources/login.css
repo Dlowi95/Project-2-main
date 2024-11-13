@@ -1,0 +1,145 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+.login-block {
+    background: linear-gradient(to bottom, #A1ACE1, #BDC3C7); /* gradient */
+    width: 100%;
+    padding: 50px 0;
+    min-height: 100vh; /* Đặt chiều cao tối thiểu bằng chiều cao màn hình */
+    display: flex;
+    align-items: center;
+}
+
+.banner-sec {
+    background: url(img/ts.png) no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+    bottom: 50px;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+}
+
+.login-sec .copy-text i {
+    color: #7389f7;
+}
+
+.login-sec .copy-text a {
+    color: #A1ACE1;
+    text-decoration: none;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #8793d3;
+    text-align: center;
+}
+
+.login-sec h2:after {
+    content: "";
+    width: 100px;
+    height: 5px;
+    background: #626990;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 3px;
+}
+
+.btn-login {
+    background: #8793d3;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #6978d2;
+}
+
+.banner-text {
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.banner-text h2:after {
+    content: "";
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .login-block {
+        padding: 20px 0;
+    }
+    .login-sec {
+        padding: 20px;
+    }
+    .carousel-inner .carousel-item img {
+        height: auto; /* Điều chỉnh chiều cao để hình ảnh hiển thị tốt */
+    }
+    .banner-sec {
+        display: none; /* Ẩn vùng carousel nếu cần */
+    }
+    .container {
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .btn-login {
+        width: 70%;
+        margin: 30px auto 30px auto;
+        display: block;
+        float: none !important;
+    }
+
+}
+
