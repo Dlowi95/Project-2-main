@@ -652,6 +652,7 @@ class ComposerStaticInit7a35c22d87ba0dc59c21c1300f6b203f
         'App\\Http\\Controllers\\Ajax\\SlideController' => __DIR__ . '/../..' . '/app/Http/Controllers/Ajax/SlideController.php',
         'App\\Http\\Controllers\\Ajax\\SourceController' => __DIR__ . '/../..' . '/app/Http/Controllers/Ajax/SourceController.php',
         'App\\Http\\Controllers\\Api\\v1\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/v1/AuthController.php',
+        'App\\Http\\Controllers\\Auth\\SocialAuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/SocialAuthController.php',
         'App\\Http\\Controllers\\Backend\\Attribute\\AttributeCatalogueController' => __DIR__ . '/../..' . '/app/Http/Controllers/Backend/Attribute/AttributeCatalogueController.php',
         'App\\Http\\Controllers\\Backend\\Attribute\\AttributeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Backend/Attribute/AttributeController.php',
         'App\\Http\\Controllers\\Backend\\Crm\\AgencyController' => __DIR__ . '/../..' . '/app/Http/Controllers/Backend/Crm/AgencyController.php',

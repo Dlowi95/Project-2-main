@@ -3062,25 +3062,25 @@ ul.main-menu .dropdown-menu li a {
 }
 
 .btn-save-profile {
-    background-color: #A1ACE1; /* Màu nền cho nút */
-    color: #fff; /* Màu chữ */
-    border: none; /* Xóa viền mặc định */
-    padding: 10px 20px; /* Khoảng cách bên trong nút */
-    font-size: 16px; /* Kích thước chữ */
-    border-radius: 5px; /* Bo tròn các góc */
-    cursor: pointer; /* Thay đổi con trỏ khi di chuột */
+    background-color: #A1ACE1; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
     margin-top: 10px;
 }
 
 .btn-save-profile:hover {
-    background-color: #8A9BD8; /* Màu khi hover */
+    background-color: #8A9BD8;
 }
 
 .profile-h2{
     margin-bottom: 20px;
-}
+}x
 
-/* General styles for the sidebar */
+
 .profile-sidebar .custom-aside-panel {
     background-color: #f7f7f7;
     border-radius: 8px;
@@ -3102,7 +3102,7 @@ ul.main-menu .dropdown-menu li a {
     transition: background-color 0.3s;
     font-weight: 500;
     border-radius: 4px;
-    border-bottom: 0.5px solid rgba(165, 163, 163, 0.5); /* Dòng rất mỏng và xám mờ */
+    border-bottom: 0.5px solid rgba(165, 163, 163, 0.5);
 }
 
 .custom-aside-link i {
@@ -3135,4 +3135,9 @@ ul.main-menu .dropdown-menu li a {
 
 .flex-r:hover{
     text-decoration: underline;
+}
+
+.mape iframe{
+    width: 100%;
+    
 }

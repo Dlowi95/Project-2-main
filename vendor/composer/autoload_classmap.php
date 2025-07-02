@@ -33,6 +33,7 @@ return array(
     'App\\Http\\Controllers\\Ajax\\SlideController' => $baseDir . '/app/Http/Controllers/Ajax/SlideController.php',
     'App\\Http\\Controllers\\Ajax\\SourceController' => $baseDir . '/app/Http/Controllers/Ajax/SourceController.php',
     'App\\Http\\Controllers\\Api\\v1\\AuthController' => $baseDir . '/app/Http/Controllers/Api/v1/AuthController.php',
+    'App\\Http\\Controllers\\Auth\\SocialAuthController' => $baseDir . '/app/Http/Controllers/Auth/SocialAuthController.php',
     'App\\Http\\Controllers\\Backend\\Attribute\\AttributeCatalogueController' => $baseDir . '/app/Http/Controllers/Backend/Attribute/AttributeCatalogueController.php',
     'App\\Http\\Controllers\\Backend\\Attribute\\AttributeController' => $baseDir . '/app/Http/Controllers/Backend/Attribute/AttributeController.php',
     'App\\Http\\Controllers\\Backend\\Crm\\AgencyController' => $baseDir . '/app/Http/Controllers/Backend/Crm/AgencyController.php',

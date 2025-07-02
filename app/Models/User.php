@@ -64,6 +64,4 @@ class User extends Authenticatable
     public function hasPermission($permissionCanonical){
         return $this->user_catalogues->permissions->contains('canonical', $permissionCanonical);
     }
-
-
 }
